@@ -3,10 +3,10 @@
   <channel>
     <title>Dance Robotics</title>
     <description>Jetson Nano robots, Computer Vision and Deep Learning.</description>
-    <link>https://localhost:4000/</link>
-    <atom:link href="https://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 04 Sep 2020 02:07:41 +0800</pubDate>
-    <lastBuildDate>Fri, 04 Sep 2020 02:07:41 +0800</lastBuildDate>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 08 Sep 2020 21:38:56 +0800</pubDate>
+    <lastBuildDate>Tue, 08 Sep 2020 21:38:56 +0800</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
     
       <item>
@@ -16,8 +16,8 @@
 
 </description>
         <pubDate>Fri, 04 Sep 2020 00:00:00 +0800</pubDate>
-        <link>https://localhost:4000/Hello-Robot/</link>
-        <guid isPermaLink="true">https://localhost:4000/Hello-Robot/</guid>
+        <link>http://localhost:4000/Hello-Robot/</link>
+        <guid isPermaLink="true">http://localhost:4000/Hello-Robot/</guid>
         
         <category>personal</category>
         
