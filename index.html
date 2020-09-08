@@ -1,61 +1,166 @@
----
-layout: default
----
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>About Me</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
 
+		<!-- Header -->
+			<header id="header">
+				<div class="inner">
+					<a href="https://www.linkedin.com/in/choowilsonpro/" class="image avatar"><img src="images/me.jpg" alt="" /></a>
+					<h1><strong>Guten Tag</strong>, I'm Choo Wilson.<br />
+					I'm into Computer Vision,<br />
+					 Deep Learning,<br />
+					  Mobile App AI<br />
+					   and Robotics.
+					</h1>
+				</div>
+			</header>
 
-{% for post in paginator.posts %}
+		<!-- Main -->
+			<div id="main">
+				<!-- One -->
+					<section id="one">
+						<header class="major">
+							<h2>Welcome to my portfolio. </br>What do I do for a living?</h2>
+						</header>
+						<p>Computer Vision is my thing. I build and fine-tune custom Deep Learning models from different DL frameworks and deploy it on JVM
+							and pythonic systems. I do research on state-of-the-art deep learning models and perform model migration, optimization
+							 and deployment on local servers, mobile devices, cloud servers and embedded
+							systems. I also train engineers from the industry on deep learning fundamentals and practical skills.<br/>
+							我擅长于深度学习模型调参与迁移学习。
+							模型与Java,Python,C++软件系统整合。
+							物体检测与分类，精通于计算机视觉。	
+						</p>
+						<ul class="actions">
+							<li><a href="https://www.linkedin.com/in/choowilsonpro/" class="button">Learn More</a></li>
+						</ul>
+					</section>
 
-<article class="post" itemscope itemtype="https://schema.org/BlogPosting">
+				<!-- Two -->
+					<section id="two">
+						<h2>Recent Work</h2>
+						<div class="row">
+							<article class="col-6 col-12-xsmall work-item">
+								<a href="images/fulls/ocat_full.png" class="image fit thumb"><img src="images/thumbs/ocat_thumb.png" alt="" /></a>
+								<h3>Online Classroom Attention Tracker - July 16 , 2020</h3>
+								<p>Online Classroom Attention Tracker <br/>Monitor student's attention metrics<br/>This project uses PyTorch, OpenCV, PyQtGraph, ZeroMQ, React<br/>
+									<a href="https://github.com/yptheangel/attention-monitor">Code is Here</a><br/>
+							</article>
+							<article class="col-6 col-12-xsmall work-item">
+								<a href="images/fulls/social-distance-checker-full.jpg" class="image fit thumb"><img src="images/thumbs/social-distance-checker_thumb.jpg" alt="" /></a>
+								<h3>Social Distance Monitoring System in Java - April 30 , 2020</h3>
+								<p>Social Distance Monitoring System <br/>Features include social distance monitoring, people counting.<br/>This project uses DL4J, JavaCV, Keras, built using Java.<br/>
+									<a href="https://github.com/yptheangel/SocialDistancingChecker">Code is Here</a><br/>
+									<a href="https://youtu.be/Yw7NVNRpe34">Youtube video is Here</a></p>
+							</article>
 
-    <div class="main-content" itemprop="articleBody">
+							<article class="col-6 col-12-xsmall work-item">
+								<a href="images/fulls/blackjackrobot_full.jpg" class="image fit thumb"><img src="images/thumbs/blackjackrobot_thumb.jpg" alt="" /></a>
+								<h3>Blackjack Robot - March 3 , 2020</h3>
+								<p>Autonomous Blackjack Playing Robot<br/>Features include Card Recognition,Poker Chip Recognition, Auto-Dealing, Orientation Correction.<br/>This project uses DL4J, JavaCV, Keras, built using Java.<br/>
+									<a href="https://youtu.be/vTvixTzMGh0">Youtube video is Here</a></p>
+							</article>
 
-<a name="blog{{ forloop.index }}"></a>
+							<article class="col-6 col-12-xsmall work-item">
+								<a href="images/fulls/jumpjackCounter_full.jpg" class="image fit thumb"><img src="images/thumbs/jumpjackCounter_thumb.png" alt="" /></a>
+								<h3>AI Fitness Counter - November 26 , 2018</h3>
+								<p>Demo of Exercise Counter in 2018 Penang Science Fair, tested by actual students.<br/>GymmyFive Coming Soon in 2020 with more Deep Learning in it!<br/>Application uses Intel OpenVINO toolkit and OpenCV in C++.<br/>
+									<a href="https://github.com/yptheangel/gymmy3">Code is Here</a></p>
+							</article>
 
-  <header class="post-header">
-      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}"><h3 class="post-title" itemprop="name headline">{{ post.title }}</h3> </a>
+							<article class="col-6 col-12-xsmall work-item">
+								<a href="images/fulls/nst_full.jpg" class="image fit thumb"><img src="images/thumbs/nst_full_thumb.jpg" alt="" /></a>
+								<h3>Neural Style Transfer on Video - March 14 , 2020</h3>
+								<p>Perform neural style transfer on video frames the fast way using PyTorch.<br/>
+									<a href="https://github.com/yptheangel/music-video-generator">Code is Here</a><br/>
+									<a href="https://youtu.be/oUpQWy5EJLE?t=205">Youtube video is Here</a></p>
+							</article>
 
-  </header>
+							<article class="col-6 col-12-xsmall work-item">
+								<a href="images/fulls/mnistclassifierandroid_full.jpg" class="image fit thumb"><img src="images/thumbs/mnistclassifierandroid_thumb.jpg" alt="" /></a>
+								<h3>MNIST Classifier on Android - September 5 , 2019</h3>
+								<p>Train and Inference a MNIST Classifier on a Android mobile device.<br />MNIST dataset loaded in Android device and start training on arm CPU using DL4J in Java.<br/>
+									<a href="https://github.com/yptheangel/dl4j-examples">Code is Here</a><br/>
+									<a href="https://youtu.be/EHe6GGga-tY?t=2296">Youtube video is Here</a></p>
+							</article>
 
-    {{ post.excerpt }}
+							<article class="col-6 col-12-xsmall work-item">
+								<a href="images/fulls/facelandmarks_full.jpg" class="image fit thumb"><img src="images/thumbs/facelandmarks_thumb.jpg" alt="" /></a>
+								<h3>Facial Landmark Prediction - January 5 , 2020</h3>
+								<p>Predicts 68 facial landmarks points by using Dlib library in C++ or Python.<br/>
+							</article>
 
-<p class="post-meta" style="text-align: right; color: rgb(152,152,152);"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="name">{{ post.author }}</span></span>{% endif %} • <label for="our-popup-{{ forloop.index }}"><i class="fa fa-share"></i> Share / Permalink</label></p>
+							<article class="col-6 col-12-xsmall work-item">
+								<a href="images/fulls/yolo2_full.jpg" class="image fit thumb"><img src="images/thumbs/yolo2_thumb.jpg" alt="" /></a>
+								<h3>YOLOv2 Object Detection - December 2 , 2019</h3>
+								<p>Inference a pretrained COCO-YOLOv2 model on a video.<br />Application uses DL4J(Deeplearning4J), JavaCV, FFMpeg in Java.<br/>
+									<a href="https://gist.github.com/choowilson/a4f40b6badb2b1451ff778dfc6b3e92e">Code is Here</a><br/>
+									<a href="https://youtu.be/DGrk3J40Scc">Youtube video is Here</a></p>
+							</article>
+						</div>
+						<ul class="actions">
+							<li><a href="https://www.linkedin.com/in/choowilsonpro/" class="button">Full Portfolio</a></li>
+						</ul>
+					</section>
 
-	<span>
-		<input type="checkbox" id="our-popup-{{ forloop.index }}" class="smoosh" />
+				<!-- Three -->
+					<section id="three">
+						<h2>Get In Touch</h2>
+						<p>Contact me on LinkedIn or Github if you would like to speak to me.</p>
+						<!-- <div class="row">
+							<div class="col-8 col-12-small">
+								<form method="post" action="#">
+									<div class="row gtr-uniform gtr-50">
+										<div class="col-6 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Name" /></div>
+										<div class="col-6 col-12-xsmall"><input type="email" name="email" id="email" placeholder="Email" /></div>
+										<div class="col-12"><textarea name="message" id="message" placeholder="Message" rows="4"></textarea></div>
+									</div>
+								</form>
+								<ul class="actions">
+									<li><input type="submit" value="Send Message" /></li>
+								</ul>
+							</div>
+							<div class="col-4 col-12-small">
+								<ul class="labeled-icons">
+									<li>
+										<h3 class="icon solid fa-home"><span class="label">Address</span></h3>
+										Penang,<br />
+										Malaysia
+									</li>
+									<li>
+										<h3 class="icon solid fa-envelope"><span class="label">Email</span></h3>
+										<a href="#">hello@untitled.tld</a>
+									</li> 
+								</ul>
+							</div> -->
+						</div>
+					</section>		
+			</div>
 
-		<!-- invisible; when checked, the popup opens -->
-		<label for="our-popup-{{ forloop.index }}" class="overlay"></label>
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="inner">
+					<ul class="icons">
+						<li><a href="https://www.linkedin.com/in/choowilsonpro/" class="icon brands fa-linkedin"><span class="label">Linkedin</span></a></li>
+						<li><a href="https://github.com/yptheangel" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+						<li><a href="https://www.youtube.com/user/wiLsonChoO93/" class="icon brands fa-youtube"><span class="label">Youtube</span></a></li>
+						<li><a href="https://penangprogrammer.blogspot.com/" class="icon brands fa-blogger"><span class="label">Blogger</span></a></li>
+					</ul>
+				</div>
+			</footer>
 
-		<!-- the popup starts here -->
-		<div class="overlay-dialogue">
-			<h3>Share "{{ post.title  }}"</h3>
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.poptrox.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
 
-            <!-- Target -->
-<input id="foo{{ forloop.index }}" value="{{ site.url }}{{ post.url }}" type="url">
-
-<!-- Trigger -->
-<button class="share-btn" data-clipboard-target="#foo{{ forloop.index }}">COPY LINK
-</button>
-            <p style="text-align: center;">Share on: <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ post.url }}" target="_blank">Facebook</a> • <a href="https://twitter.com/share?url={{ site.url }}{{ post.url }}&amp;text={{ post.title }}" target="_blank">Twitter</a>
-
-			<p style="text-align: center;"><label for="our-popup-{{ forloop.index }}">cancel</label></p>
-		</div>
-	</span>
-
-  </div>
-
-</article>
-
-{% endfor %}
-
-<div class="pagination" style="text-align: center;">
-
-  {% if paginator.next_page %}
-    <h2><a href="{{ paginator.next_page_path }}" class="next">- more posts -</a></h2>
-  {% endif %}
-
-  {% if paginator.previous_page %}
-    <h2><a href="{{ paginator.previous_page_path }}" class="previous">- previous page -</a></h2>
-  {% endif %}
-
-</div>
+	</body>
+</html>
